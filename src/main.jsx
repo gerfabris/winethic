@@ -15,7 +15,7 @@ i18next.init({
       global: global_es,
     },
     en: {
-      globla: global_en,
+      global: global_en,
     }
   }
 })

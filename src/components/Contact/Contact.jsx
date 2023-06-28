@@ -1,9 +1,8 @@
 import { useState , useEffect, useRef } from 'react'
 import Loader from 'react-loaders'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
-import emailjs from '@emailjs/browser'
-import './Contact.css'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import './Contact.css'
 
 export const Contact = () =>{
     /* -- animated letters -- */
