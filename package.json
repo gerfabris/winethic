@@ -10,13 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
     "animate.css": "^4.1.1",
     "gsap": "^3.11.5",
     "gsap-trial": "^3.11.5",
+    "i18next": "^23.2.3",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.1",
     "react-icons": "^4.9.0",
     "react-leaflet": "^4.2.1",
     "react-loaders": "^3.0.1",

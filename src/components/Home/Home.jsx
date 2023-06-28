@@ -4,6 +4,7 @@ import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
 import { Logo } from './Logo/Logo'
 import LogoHome from '../../assets/logo/Logo W.png'
 import Loader from 'react-loaders'
+import { useTranslation } from 'react-i18next'
 import './Home.css'
 
 export const Home = () => {
@@ -33,7 +34,10 @@ export const Home = () => {
             setLetterClass('text-animate-hover')
         }, 4000)
     }, [])
-    
+    /* -- translation -- */
+    const [ t , i18n ] = useTranslation('global');
+    /* {t('home.key')} */
+    /* -- -- */
     return(
         <>
             <div className='container home-page'>
