@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import { Sidebar } from '../Sidebar/Sidebar'
-import './Layout.css'
 import { Footer } from '../Footer/Footer'
+import './Layout.css'
 
 export const Layout = () => {
     return(
