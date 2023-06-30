@@ -1,6 +1,11 @@
 {
     "home": {
-        "title": "Hola! Somos WinEthic Soluciones Legales",
+        "title":{
+            "hi": "Hola!",
+            "weare": "Somos",
+            "name": "WinEthic",
+            "slogan": "Soluciones Legales"
+        }, 
         "slogan": "Compliance, Crypto, Debida Diligencia",
         "button-text": "Contactanos"
     },

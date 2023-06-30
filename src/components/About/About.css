@@ -11,7 +11,7 @@
 .about-title{
     font-size: 53px;
     font-family: 'Coolvetica';
-    color: #9f4d7d;
+    color: #A85281;
     font-weight: 400;
     margin-top: 1em;
     position: relative;
@@ -88,7 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px 0px #9f4d7d;
+    box-shadow: 0 0 20px 0px #A85281;
 }
 .face1{
     transform: translateZ(100px);
@@ -110,7 +110,7 @@
 }
 /* .about-icon{
     fill: #DD0031;
-    fill: #9f4d7d;
+    fill: #A85281;
 } */
 
 @keyframes spincube {

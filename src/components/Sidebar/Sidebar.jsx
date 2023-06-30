@@ -4,6 +4,7 @@ import logoSubtitle from '../../assets/logo/Logo WinEthic text.png'
 import { FaBars, FaEnvelope, FaFacebook, FaHome, FaLinkedin, FaSuitcase, FaUser, FaWhatsapp } from "react-icons/fa";
 import { CgClose } from "react-icons/cg";
 import { useState } from 'react';
+import { ButtonTranslations } from '../ButtonTranslation/ButtonTranslations';
 import './Sidebar.css'
 
 export const Sidebar = () => {
@@ -89,6 +90,9 @@ export const Sidebar = () => {
                     </a>
                 </li>
             </ul>
+            <ButtonTranslations 
+                styleButton={showNav ? 'container-buttonTranslation buttonMobile-show' : 'container-buttonTranslation'}  
+            />
             <FaBars 
                 className={showNav ? 'nav-hamburger-none' : 'nav-hamburger' }
                 onClick={ () => setShowNav(true)}

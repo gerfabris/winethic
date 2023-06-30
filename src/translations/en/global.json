@@ -1,14 +1,38 @@
 {
     "home": {
-
+        "title":{
+            "hi": "Hi!",
+            "weare": "Somos",
+            "name": "WinEthic",
+            "slogan": "Soluciones Legales"
+        }, 
+        "slogan": "Compliance, Crypto, Debida Diligencia",
+        "button-text": "Contactanos"
     },
     "about":{
-
+        "title": "Nuestros Servicios",
+        "service-1-title":"",
+        "service-1-description":"",
+        "service-2-title":"",
+        "service-2-description":"",
+        "service-3-title":"",
+        "service-3-description":"",
+        "service-4-title":"",
+        "service-4-description":""     
     },
     "contact":{
-
+        "title" : "Acerca de",
+        "paragraph-1": "En Winethic abogados, nos esforzamos por construir relaciones confiables a largo plazo con nuestros clientes al eliminar la carga del departamento de legales y compliance con un servicio estelar, personalizado y eficiente que les permita concentrarse en lo que más importa; hacer crecer una empresa de tecnología innovadora de acuerdo a los pilares y estándares éticos más elevados.",
+        "paragraph-2": "Se lanzó WINETHIC para ayudar a las nuevas empresas y empresas en ascenso a superar los desafíos asociados con la estrategia y la planificación legal y de compliance. Ya sea para recaudar capital operativo adicional o para cumplir con los requisitos de la Junta Directiva, nuestro equipo de asesores dinámicos está aquí para ayudarlo.",
+        "paragraph-3": "Nos enorgullecemos de adaptar nuestro enfoque a las necesidades de cada cliente. Al ayudar a múltiples empresas, nuestro equipo ha adquirido conocimiento de varias industrias disruptivas tecnológicas."
+        
     },
     "portfolio":{
-        
+        "title" : "Contacto",
+        "label-placeholder-1" : "Nombre",
+        "label-placeholder-2" : "Email",
+        "label-placeholder-3" : "Asunto",
+        "label-placeholder-4" : "Mensaje",
+        "button-text" : "ENVIAR"
     }
 }

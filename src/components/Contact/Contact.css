@@ -11,7 +11,7 @@
 .contact-title{
     font-size: 53px;
     font-family: 'Coolvetica';
-    color: #9f4d7d;
+    color: #A85281;
     font-weight: 400;
     margin-top: 1em;
     position: relative;
@@ -103,13 +103,13 @@
     box-sizing: border-box;
 }
 .flat-button{
-    color: #9f4d7d;
+    color: #A85281;
     background: 0 0;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #9f4d7d;
+    border: 1px solid #A85281;
     float: right;
     border-radius: 4px;
     text-align: center;
@@ -137,7 +137,7 @@
     font-size: 16px;
     display: block;
     padding-top: 20px;
-    color: #9f4d7d;
+    color: #A85281;
 }
 .map-wrap{
     background: rgba(0, 253, 216, .1);

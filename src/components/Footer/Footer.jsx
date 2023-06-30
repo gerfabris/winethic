@@ -30,7 +30,7 @@ export const Footer = () => {
                             Copyright
                         </div>
                         <div className='copyright-socialMedia'>
-                            <h3>
+                            <h3 className='copyright-socialMedia-title'>
                                 Follow Us
                             </h3>
                             <ul className='footer-container-socialMedia'>
