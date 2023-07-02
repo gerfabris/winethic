@@ -1,7 +1,8 @@
-import { useState, useEffect, useRef } from "react";
 import Loader from "react-loaders";
+import { useState, useEffect, useRef } from "react";
 import { AnimatedLetters } from "../AnimatedLetters/AnimatedLetters";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { useTranslation } from 'react-i18next'
 import "./Contact.css";
 
 export const Contact = () => {
@@ -13,8 +14,13 @@ export const Contact = () => {
       setLetterClass("text-animate-hover");
     }, 3000);
   }, []);
-  /* -- title -- */
-  const arrayTItle = ["C", "o", "n", "t", "a", "c", "t", " ", "U", "s"];
+  /* -- translations -- */
+  const {t} = useTranslation('global');
+  const getTitleArray = () => {
+    let title = t('contact.title')    
+    return title.split('')
+} 
+  const arrayTitle = getTitleArray()
   /* ------ */
   return (
     <>
@@ -22,12 +28,12 @@ export const Contact = () => {
         <div className="text-zone">
           <h1 className="contact-title">
             <AnimatedLetters
-              strArray={arrayTItle}
+              strArray={arrayTitle}
               idx={15}
               letterClass={letterClass}
             />
           </h1>
-          <p className="contact-p">Acá chamuyo de contacto</p>
+          <p className="contact-p">{t('contact.speach') }</p>
           <div className="contact-form">
             <form action="">
               <ul className="contact-form-ul">
@@ -35,7 +41,7 @@ export const Contact = () => {
                   <input
                     type="text"
                     name="name"
-                    placeholder="Name"
+                    placeholder={t('contact.name') }
                     required
                     className="contact-form-input"
                   />
@@ -44,7 +50,7 @@ export const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder={t('contact.email') }
                     required
                     className="contact-form-input"
                   />
@@ -53,7 +59,7 @@ export const Contact = () => {
                   <input
                     type="text"
                     name="subject"
-                    placeholder="Subject"
+                    placeholder={t('contact.subject') }
                     required
                     className="contact-form-input"
                   />
@@ -64,7 +70,7 @@ export const Contact = () => {
                     id=""
                     cols="30"
                     rows="10"
-                    placeholder="Message"
+                    placeholder={t('contact.message')}
                     required
                     className="contact-form-textarea"
                   ></textarea>

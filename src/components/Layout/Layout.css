@@ -4,11 +4,6 @@
 /*     position: absolute; */
     margin-bottom: 10em;
 }
-
-.top-tags{
-    bottom: auto;
-    top: 10%;
-}
 .tags{
     color: #A85281;
     opacity: 0.6;
@@ -17,6 +12,10 @@
     left: 2%;
     font-size: 18px;
     font-family: 'La Belle Aurore' , cursive;
+}
+.top-tags{
+    bottom: auto;
+    top: 12%;
 }
 .bottom-tag-html{
     margin-left: 20px;

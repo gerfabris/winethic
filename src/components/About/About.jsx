@@ -1,7 +1,8 @@
+import Loader from 'react-loaders'
 import { useState , useEffect } from 'react'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
 import { FaHive } from 'react-icons/fa'
-import Loader from 'react-loaders'
+import { useTranslation } from 'react-i18next'
 import './About.css'
 
 export const About = () => {
@@ -12,33 +13,33 @@ export const About = () => {
             setLetterClass('text-animate-hover')
         }, 3000)
     }, [])
-
+    /* -- translations -- */
+    const {t} = useTranslation('global');
+    const getTitleArray = () => {
+        let title = t('about.title')    
+        return title.split('')
+    }
+    const titleArray = getTitleArray()
+    /* ------ */
     return (
         <>
             <div className='container about-page'>
                 <div className='about-text-zone'>
                     <h1 className='about-title'>
                         <AnimatedLetters
-                            strArray={['A', 'b', 'o', 'u', 't', ' ', 'U', 's']}
+                            strArray={titleArray}
                             idx={15}
                             letterClass={letterClass}
                         />
                     </h1>
                     <p className='about-p'>
-                        En Winethic abogados, nos esforzamos por construir relaciones confiables a largo plazo con nuestros 
-                        clientes al eliminar la carga del departamento de legales y compliance con un servicio estelar, 
-                        personalizado y eficiente que les permita concentrarse en lo que más importa; hacer crecer una empresa 
-                        de tecnología innovadora de acuerdo a los pilares y estándares éticos más elevados
+                        {t('about.paragraphFirst')}
                     </p>
                     <p className='about-p'>
-                        Se lanzó WINETHIC para ayudar a las nuevas empresas y empresas en ascenso a superar los desafíos 
-                        asociados con la estrategia y la planificación legal y de compliance. Ya sea para recaudar capital 
-                        operativo adicional o para cumplir con los requisitos de la Junta Directiva, nuestro equipo de 
-                        asesores dinámicos está aquí para ayudarlo.
+                        {t('about.paragraphSecond')}
                     </p>
                     <p className='about-p'>
-                        Nos enorgullecemos de adaptar nuestro enfoque a las necesidades de cada cliente. Al ayudar a múltiples 
-                        empresas, nuestro equipo ha adquirido conocimiento de varias industrias disruptivas tecnológicas.
+                        {t('about.paragraphThird')}
                     </p>
                 </div>
                 <div className='stage-cube-cont'>

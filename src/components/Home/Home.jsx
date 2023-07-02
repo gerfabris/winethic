@@ -1,9 +1,9 @@
+import LogoHome from '../../assets/logo/Logo W.png'
+import Loader from 'react-loaders'
 import { useState , useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
 import { Logo } from './Logo/Logo'
-import LogoHome from '../../assets/logo/Logo W.png'
-import Loader from 'react-loaders'
 import { useTranslation } from 'react-i18next'
 import './Home.css'
 
