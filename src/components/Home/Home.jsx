@@ -1,4 +1,5 @@
-import LogoHome from '../../assets/logo/Logo W.png'
+import LogoHome from '../../assets/logos/WinEthic - W.png'
+/* import LogoHome from '../../assets/logo/Logo W.png' */
 import Loader from 'react-loaders'
 import { useState , useEffect } from 'react'
 import { Link } from 'react-router-dom'

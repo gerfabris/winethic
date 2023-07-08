@@ -1,15 +1,20 @@
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../../assets/logo/Logo W.png'
-import logoSubtitle from '../../assets/logo/Logo WinEthic text.png'
 import { FaBars, FaEnvelope, FaFacebook, FaHome, FaLinkedin, FaSuitcase, FaUser, FaWhatsapp } from "react-icons/fa";
 import { CgClose } from "react-icons/cg";
 import { useState } from 'react';
 import { ButtonTranslations } from '../ButtonTranslation/ButtonTranslations';
+import { useTranslation } from 'react-i18next'
+import logo from '../../assets/logos/WinEthic - W.png'
+/* import logo from '../../assets/logo/Logo W.png' */
+import logoSubtitle from '../../assets/logos/Winethic.png'
+/* import logoSubtitle from '../../assets/logo/Logo WinEthic text.png' */
 import './Sidebar.css'
 
 export const Sidebar = () => {
     const [showNav, setShowNav] = useState(false)
-
+    /* -- translations -- */
+    const {t} = useTranslation('global');
+    /* ---- */
     return(
         <div className='nav-bar'>
             <Link className='logo' to={'/'}>

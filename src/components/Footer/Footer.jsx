@@ -1,9 +1,14 @@
-import { Link } from 'react-router-dom'
-import logo from '../../assets/logo/Logo W.png'
+import logo from '../../assets/logos/WinEthic - Completo.png'
+import { Link, NavLink } from 'react-router-dom'
 import { FaFacebook,  FaLinkedin, FaWhatsapp } from "react-icons/fa";
+/* import logo from '../../assets/logo/Logo W.png' */
+import { useTranslation } from 'react-i18next'
 import './Footer.css'
 
 export const Footer = () => {
+    /* -- translations -- */
+    const {t} = useTranslation('global');
+    /* ---- ---- */
     return(
         <footer className='footer'>
             <div className='container-footer-logo'>
@@ -14,13 +19,43 @@ export const Footer = () => {
             <div className='container-footer-sections'>
                 <div className='footer-sections-container'>
                     <div className="footer-sections-content">
-                        About
+                        <h2 className='footer-sections-content-title'>
+                            {t('footer.specialties.title') }
+                        </h2>
+                        <p className='footer-sections-content-link'>
+                            {t('footer.specialties.compliance') }
+                        </p>
+                        <p className='footer-sections-content-link'>
+                            {t('footer.specialties.cripto') }
+                        </p>
                     </div>
                     <div className="footer-sections-content">
-                        Information
+                        <h2 className='footer-sections-content-title'>
+                            {t('footer.information.title') }
+                        </h2>
+                        <p className='footer-sections-content-link'>
+                            {t('footer.information.location') }
+                        </p>
+                        <a href="mailto:winethic@gmail.com" className='footer-sections-content-link'>
+                            winethic@gmail.com
+                        </a>
                     </div>
                     <div className="footer-sections-content">
-                        News
+                        <h2 className='footer-sections-content-title'>
+                            {t('footer.navigation.title') }
+                        </h2>
+                        <NavLink to={'/'} className='footer-sections-content-link'>
+                            {t('footer.navigation.home') }
+                        </NavLink>
+                        <NavLink to={'/services'} className='footer-sections-content-link'>
+                            {t('footer.navigation.services') }
+                        </NavLink>
+                        <NavLink to={'/about'} className='footer-sections-content-link'>
+                            {t('footer.navigation.about') }
+                        </NavLink>
+                        <NavLink to={'/contact'} className='footer-sections-content-link'>
+                            {t('footer.navigation.contact') }
+                        </NavLink>
                     </div>
                 </div>
                 <div className='footer-sections-copyright'>

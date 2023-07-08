@@ -35,5 +35,23 @@
         "subject" : "Asunto",
         "message" : "Mensaje",
         "send" : "ENVIAR"
+    },
+    "footer":{
+        "navigation":{
+            "title": "Navega por la web",
+            "home": "Inicio",
+            "services": "Nuestros servicios",
+            "about": "Sobre nosotros",
+            "contact": "Contactanos"
+        },
+        "information":{
+            "title": "Contacto",
+            "location": "Mendoza, Argentina"
+        },
+        "specialties":{
+            "title": "Nuestras especialidades",
+            "compliance": "Compliance",
+            "cripto": "Cripto"
+        }
     }
 }

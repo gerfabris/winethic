@@ -1,5 +1,5 @@
 import Loader from "react-loaders";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { AnimatedLetters } from "../AnimatedLetters/AnimatedLetters";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { useTranslation } from 'react-i18next'
@@ -83,7 +83,7 @@ export const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          WIneThic Legal Solutions,
+          WineThic Legal Solutions,
           <br />
           Argentina pa,
           <br />

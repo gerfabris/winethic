@@ -33,5 +33,23 @@
         "subject" : "Subjet",
         "message" : "Message",
         "send" : "SEND"
+    },
+    "footer":{
+        "navigation":{
+            "title": "Site",
+            "home": "Home",
+            "services": "Our Services",
+            "about": "About Us",
+            "contact": "Contact Us"
+        },
+        "information":{
+            "title": "Contact",
+            "location": "Mendoza, Argentina"
+        },
+        "specialties":{
+            "title": "Our Specialties",
+            "compliance": "Compliance",
+            "cripto": "Cripto"
+        }
     }
 }

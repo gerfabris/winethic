@@ -2,22 +2,22 @@
     {
         "id": 1,
         "image": "https://drive.google.com/uc?export=view&id=1E1heZIimpEfjVy1Dcnxmtm6bQd5OukHy",
-        "name": "Servicio 1",
-        "description": "descripción 1",
+        "name": "Services 1",
+        "description": "Description 1",
         "href": "#"
     },
     {
         "id": 2,
         "image": "https://drive.google.com/uc?export=view&id=1RUPz3poZPW5XP4gbi9yrPblT55Up10te",
-        "name": "Servicio 2",
-        "description": "Descripción 2",
+        "name": "Services 2",
+        "description": "Description 2",
         "href": "#"
     },
     {
         "id": 3,
         "image": "https://drive.google.com/uc?export=view&id=1E1heZIimpEfjVy1Dcnxmtm6bQd5OukHy",
-        "name": "Servicio 3",
-        "description": "Descripción 3",
+        "name": "Services 3",
+        "description": "Description 3",
         "href": "#"
     }
 ]
