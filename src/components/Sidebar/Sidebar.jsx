@@ -30,6 +30,7 @@ export const Sidebar = () => {
                     className='container-link home-link' 
                     to={'/'} 
                     onClick={ () => setShowNav(false)}
+                    data-content={t('navbar.homeLink')}
                 >
                     <FaHome className='navbar-icon'/>
                 </NavLink>
@@ -39,6 +40,7 @@ export const Sidebar = () => {
                     className='container-link services-link' 
                     to={'/services'} 
                     onClick={ () => setShowNav(false)}
+                    data-content={t('navbar.servicesLink')}
                 >
                     <FaSuitcase className='navbar-icon'/>
                 </NavLink>
@@ -48,6 +50,7 @@ export const Sidebar = () => {
                     className='container-link about-link' 
                     to={'/about'} 
                     onClick={ () => setShowNav(false)}
+                    data-content={t('navbar.aboutLink')}
                 >
                     <FaUser className='navbar-icon'/>
                 </NavLink>
@@ -57,6 +60,7 @@ export const Sidebar = () => {
                     to={'/contact'} 
                     className='container-link contact-link' 
                     onClick={ () => setShowNav(false)}
+                    data-content={t('navbar.contactLink')}
                 >
                     <FaEnvelope 
                         className='navbar-icon'

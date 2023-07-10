@@ -76,7 +76,7 @@ export const Contact = () => {
                   ></textarea>
                 </li>
                 <li className="contact-form-li">
-                  <input type="submit" className="flat-button" value="SEND" />
+                  <input type="submit" className="flat-button" value={t('contact.send')} />
                 </li>
               </ul>
             </form>

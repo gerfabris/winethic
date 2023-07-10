@@ -51,6 +51,7 @@ export const Home = () => {
                             idx={15}
                             className={`${letterClass} _13`}
                         />
+                        <img src={LogoHome} alt="WinEtic" className='home-img'/>
                         <br/>
                         <AnimatedLetters
                             letterClass={letterClass}
@@ -58,8 +59,6 @@ export const Home = () => {
                             idx={15}
                             className={`${letterClass} _14`}
                         />
-
-                        <img src={LogoHome} alt="WinEtic" className='home-img'/>
                         <AnimatedLetters 
                             letterClass={letterClass}
                             strArray={nameArray}

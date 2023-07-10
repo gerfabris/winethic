@@ -51,5 +51,11 @@
             "compliance": "Compliance",
             "cripto": "Cripto"
         }
+    },
+    "navbar": {
+        "homeLink": "HOME",
+        "servicesLink": "SERVICES",
+        "aboutLink": "ABOUT",
+        "contactLink": "CONTACT"
     }
 }

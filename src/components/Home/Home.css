@@ -103,14 +103,34 @@
         flex-direction: column;
         margin-top: 60px;
     }
-    .home-h1{
-        font-size: 30px;
-    }
     .home-page .flat-button{
         display: block;
 /*         margin: 20px auto 0 auto;
  */        width: 125px;
         float: none;
     }
-
+}
+@media screen and (max-width: 520px){
+    .home-h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        gap: .3em;
+        width: 90%;
+    }
+    .home-h1 br{
+        display: none;
+    }
+    .home-h1 span{
+        width: 100%;
+        display: inline;
+    }
+    .text-animate,.text-animate-hover{
+        display: inline;
+    }
+    .home-img{
+        
+    }
 }

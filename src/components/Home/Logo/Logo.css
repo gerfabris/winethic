@@ -38,6 +38,8 @@
     .logo-container{
         position: relative;
         width: 90%;
+        max-width: 300px;
+        max-height: 300px;
         height: auto;
 /*         top: 50px;
  */        right: 0;

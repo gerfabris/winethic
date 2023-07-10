@@ -66,7 +66,7 @@
 }
 .container-link:after{
     content: '';
-    font-size: 9px;
+    font-size: 10px;
     letter-spacing: 2px;
     position: absolute;
     bottom: 0;
@@ -80,16 +80,16 @@
     fill: #A85281;
 }
 .home-link:after{
-    content: 'HOME';
+    content: attr(data-content);
 }
 .services-link:after{
-    content: 'SERVICES';
+    content: attr(data-content);
 }
 .about-link:after{
-    content: 'ABOUT';
+    content: attr(data-content);
 }
 .contact-link:after{
-    content: 'CONTACT';
+    content: attr(data-content);
 }
 /* -- social media -- */
 .container-socialMedia{
