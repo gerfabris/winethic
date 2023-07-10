@@ -154,10 +154,15 @@
     }
     .stage-cube-cont{
         width: 100%;
-        height: 100%;
+        height: 200px;
         position: initial;
         overflow: visible;
         margin-bottom: 2em;
+        scale: .85;
     }
-
+}
+@media screen and (max-width: 520px){
+    .about-title{
+        font-size: 30px;
+    }
 }

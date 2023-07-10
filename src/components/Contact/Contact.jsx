@@ -25,7 +25,7 @@ export const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
+        <div className="text-zone text-zone-contact">
           <h1 className="contact-title">
             <AnimatedLetters
               strArray={arrayTitle}

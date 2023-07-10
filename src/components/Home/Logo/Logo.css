@@ -37,7 +37,7 @@
 @media screen and (max-width: 1200px){
     .logo-container{
         position: relative;
-        width: 100px;
+        width: 90%;
         height: auto;
 /*         top: 50px;
  */        right: 0;
@@ -53,4 +53,8 @@
         left: 0;
         margin: auto;
     } */
+    .logo-svg{
+        width: 100%;
+        height: auto;
+    }
 }

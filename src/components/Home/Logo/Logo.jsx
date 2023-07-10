@@ -44,8 +44,10 @@ export const Logo = () => {
                 width="559pt" 
                 height="897pt" 
                 viewBox="0 0 238.000000 174.000000"
-                preserveAspectRatio="xMidYMid meet">
-
+                preserveAspectRatio="xMidYMid meet"
+                className='logo-svg'
+            >
+                
                 <g transform="translate(0.000000,174.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
                     <path d="M50 1663 c0 -3 206 -363 458 -799 374 -649 459 -791 469 -778 6 8 48
