@@ -4,6 +4,7 @@ import { FaFacebook,  FaLinkedin, FaWhatsapp } from "react-icons/fa";
 /* import logo from '../../assets/logo/Logo W.png' */
 import { useTranslation } from 'react-i18next'
 import './Footer.css'
+import { ImpulsarDev } from '../ImpulsarDev/ImpulsarDev';
 
 export const Footer = () => {
     /* -- translations -- */
@@ -62,7 +63,7 @@ export const Footer = () => {
                     <hr className='copyright-hr'/>
                     <div className='copyright-content'>
                         <div className='copyright-content-text'>
-                            Copyright
+                            Copyright ® WinEthic - 2023
                         </div>
                         <div className='copyright-socialMedia'>
                             <h3 className='copyright-socialMedia-title'>
@@ -102,6 +103,9 @@ export const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                    <div className='copyright-impulsar'>
+                            <ImpulsarDev/>
+                        </div>
                 </div>
             </div>
         </footer>

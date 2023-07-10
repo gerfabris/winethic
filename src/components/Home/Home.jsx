@@ -1,4 +1,5 @@
 import LogoHome from '../../assets/logos/WinEthic - W.png'
+import LogoHomeMobile from '../../assets/logotipes/WinEthic_logoOK_Color_Transparente.png'
 /* import LogoHome from '../../assets/logo/Logo W.png' */
 import Loader from 'react-loaders'
 import { useState , useEffect } from 'react'
@@ -6,6 +7,7 @@ import { Link } from 'react-router-dom'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
 import { Logo } from './Logo/Logo'
 import { useTranslation } from 'react-i18next'
+import { useImageSwitch } from '../../hooks/useImageSwitch'
 import './Home.css'
 
 export const Home = () => {
@@ -16,7 +18,8 @@ export const Home = () => {
             setLetterClass('text-animate-hover')
         }, 4000)
     }, [])
-
+    /* -- useImage Switch -- */
+    const imageLogo = useImageSwitch(LogoHome , LogoHomeMobile)
     /* -- translation -- */
     const {t} = useTranslation('global');
     const getHiArray = () => {
@@ -51,7 +54,7 @@ export const Home = () => {
                             idx={15}
                             className={`${letterClass} _13`}
                         />
-                        <img src={LogoHome} alt="WinEtic" className='home-img'/>
+                        <img src={imageLogo} alt="WinEtic" className='home-img'/>
                         <br/>
                         <AnimatedLetters
                             letterClass={letterClass}

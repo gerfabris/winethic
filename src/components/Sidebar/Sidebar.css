@@ -188,7 +188,6 @@
     .nav-hamburger-none{
         display: none;
         transition: all 0.5 ease-in-out;
-
     }
     .nav-hamburger-close{
         color: #A85281;
@@ -199,7 +198,6 @@
         z-index: 45;
         font-size: 25px;
         transition: all 0.5 ease-in-out;
-
     }
     .nav-hamburger-close-none{
         display: none;

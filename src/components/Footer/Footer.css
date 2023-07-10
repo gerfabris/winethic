@@ -177,5 +177,25 @@
     .copyright-content{
         margin-bottom: 2em;
     }
-
+}
+@media screen and (max-width: 520px){
+    .container-footer-sections{
+        gap: .5em;
+    }
+    .footer-sections-content{
+        height: 160px;
+        gap: .5em;
+        margin-bottom: .5em;
+    }
+    .copyright-hr{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .container-footer-logo{
+        margin-bottom: 2em;
+    }
+    .footer-sections-content-title{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 }

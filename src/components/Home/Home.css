@@ -112,7 +112,7 @@
 }
 @media screen and (max-width: 520px){
     .home-h1{
-        font-size: 30px;
+        font-size: 45px;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -131,6 +131,14 @@
         display: inline;
     }
     .home-img{
-        
+        display: none;
+/*         position: absolute;
+        right: 10%;
+        width: 150px; */
+    }
+}
+@media screen and (max-width: 460px){
+    .home-h1{
+        font-size: 34px;
     }
 }
