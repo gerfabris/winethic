@@ -15,6 +15,9 @@
     font-family: 'Coolvetica';
     font-weight: 400;
 }
+.home-title-span{
+    margin-right: .3em;
+}
 .home-h1::before{
     content: '';
     font-family: 'La Belle Aurore';
