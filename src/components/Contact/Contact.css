@@ -1,5 +1,6 @@
 .contact-page{
     margin-top: 2em;
+    min-height: 100vh;
 }
 .contact-text-zone{
     position: absolute;

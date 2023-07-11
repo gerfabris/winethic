@@ -79,7 +79,7 @@ export const Home = () => {
                     </h2>
                     <div className='container-flat-button'>
                         <Link to='/contact' className='flat-button'>
-                                CONTACT US
+                            {t('home.button')}
                         </Link>
                     </div>
                     <Logo />
