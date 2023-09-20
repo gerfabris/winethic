@@ -2,22 +2,29 @@
     {
         "id": 1,
         "image": "https://drive.google.com/uc?export=view&id=1E1heZIimpEfjVy1Dcnxmtm6bQd5OukHy",
-        "name": "Services 1",
-        "description": "Description 1",
+        "name": "CRYPTO COMPLIANCE",
+        "description": "Adaptation to different sector regulations, regulatory compliance and Due Diligence, representation before public and regulatory entities and institutions, licenses and authorizations.",
         "href": "#"
     },
     {
         "id": 2,
         "image": "https://drive.google.com/uc?export=view&id=1RUPz3poZPW5XP4gbi9yrPblT55Up10te",
-        "name": "Services 2",
-        "description": "Description 2",
+        "name": "BLOCKCHAIN",
+        "description": "Legal advice in relation to projects linked to decentralized technologies. Legal consulting and compliance of Smart contracts. Management of personal information in Blockchain. Use of tools with Blockchain interaction. Advice to startups and NFTs (Non Fungible Tokens) projects.",
         "href": "#"
     },
     {
         "id": 3,
         "image": "https://drive.google.com/uc?export=view&id=1E1heZIimpEfjVy1Dcnxmtm6bQd5OukHy",
-        "name": "Services 3",
-        "description": "Description 3",
+        "name": "ESPORTS ELECTRONIC SPORTS",
+        "description": "We advise and establish defense for athletes, sportsmen, clubs, federations and associations in procedures of various kinds both in ordinary justice and before arbitration courts. We carry out contracts, assignments and transfers of athletes. We analyze the conditions of access to the different leagues, both professional, semi-professional or amateur.",
+        "href": "#"
+    },
+    {
+        "id": 4,
+        "image": "https://drive.google.com/uc?export=view&id=1E1heZIimpEfjVy1Dcnxmtm6bQd5OukHy",
+        "name": "VIDEOGAMES",
+        "description": "Legal protection of the video game you are developing. Comprehensive legal advice on the legal obligations of a video game development. Negotiation and preparation of contracts with the members of your work team and investors. Contracts for the transfer of intellectual property rights with collaborators and freelancers. Video game development contracts, national and international distribution, intellectual property and licenses. Advergaming. Advice on in-game advertising. Intellectual and Industrial Property and Plagiarism. Trademark registration: name of the video game and other elements..",
         "href": "#"
     }
 ]

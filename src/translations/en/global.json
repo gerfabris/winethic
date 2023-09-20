@@ -6,11 +6,19 @@
             "name": "WinEthic",
             "slogan": "Legal Solutions"
         },
-        "button": "CONTACT US"
+        "button": {
+            "contactUs":"CONTACT US",
+            "seeMore": "SEE MORE"
+        },
+        "services":{
+            "one": "Cripto",
+            "two": "Compliance",
+            "three": "Foundraising & Terms sheets"
+        }
     },
     "services":{
         "title": "Our Services",
-        "service-1-title":"",
+        "service-1-title":"CRYPTOACTIVOS & BLOCKCHAIN",
         "service-1-description":"",
         "service-2-title":"",
         "service-2-description":"",
@@ -57,6 +65,12 @@
         "homeLink": "HOME",
         "servicesLink": "SERVICES",
         "aboutLink": "ABOUT",
-        "contactLink": "CONTACT"
+        "contactLink": "CONTACT",
+        "blogLink": "BLOG"
+    },
+    "blog": {
+        "title": "OUR BLOG",
+        "titleEvents": "Our Events",
+        "titleNotes": "Our Notes"
     }
 }

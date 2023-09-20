@@ -1,12 +1,12 @@
 import { Link, NavLink } from 'react-router-dom'
-import { FaBars, FaEnvelope, FaFacebook, FaHome, FaLinkedin, FaSuitcase, FaUser, FaWhatsapp } from "react-icons/fa";
+import { FaBars, FaEnvelope, FaFacebook, FaHome, FaLinkedin, FaSuitcase, FaUser, FaWhatsapp, FaRegNewspaper } from "react-icons/fa";
 import { CgClose } from "react-icons/cg";
 import { useState } from 'react';
 import { ButtonTranslations } from '../ButtonTranslation/ButtonTranslations';
 import { useTranslation } from 'react-i18next'
-import logo from '../../assets/logos/WinEthic - W.png'
+import logo from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
 /* import logo from '../../assets/logo/Logo W.png' */
-import logoSubtitle from '../../assets/logos/Winethic.png'
+import logoSubtitle from '../../assets/logos/WinEthic_logoOK_BlancoLila-recorte.png'
 /* import logoSubtitle from '../../assets/logo/Logo WinEthic text.png' */
 import './Sidebar.css'
 
@@ -63,6 +63,18 @@ export const Sidebar = () => {
                     data-content={t('navbar.contactLink')}
                 >
                     <FaEnvelope 
+                        className='navbar-icon'
+                    />
+                </NavLink>
+                <NavLink 
+                    exact='true' 
+                    activeclassname='active' 
+                    to={'/blog'} 
+                    className='container-link blog-link' 
+                    onClick={ () => setShowNav(false)}
+                    data-content={t('navbar.blogLink')}
+                >
+                    <FaRegNewspaper 
                         className='navbar-icon'
                     />
                 </NavLink>

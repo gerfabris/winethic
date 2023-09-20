@@ -77,11 +77,24 @@ export const Home = () => {
                         />
                     </h1>
                     <h2 className='home-h2'>
-                        Compliance / Cripto / Blabla
+                        <Link to={'/services'}>
+                            {t('home.services.one')}
+                        </Link>
+                        /
+                        <Link to={'/services'}>
+                            {t('home.services.two')}
+                        </Link>
+                        /
+                        <Link to={'/services'}>
+                            {t('home.services.three')}
+                        </Link>                        
                     </h2>
                     <div className='container-flat-button'>
                         <Link to='/contact' className='flat-button'>
-                            {t('home.button')}
+                            {t('home.button.contactUs')}
+                        </Link>
+                        <Link to='/contact' className='flat-button'>
+                            {t('home.button.seeMore')}
                         </Link>
                     </div>
                     <Logo />

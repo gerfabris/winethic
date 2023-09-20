@@ -16,14 +16,17 @@
     display: flex; /* block */
     padding:  0 8px; /* sidebar al revés */
 }
-.logo img{
+.logo-img{
     display: block;
     margin:  auto 1em; /* sidebar al revés */
-    width: 45px;
+    width: 50px;
     height: auto;
 }
 .logo-sublogo{
-    width: 15px;
+    display: block;
+    margin:  auto 1em; /* sidebar al revés */
+    height: auto;
+    width: 90px;
 }
 /* -- menu -- */
 .navbar-icon{
@@ -89,6 +92,9 @@
     content: attr(data-content);
 }
 .contact-link:after{
+    content: attr(data-content);
+}
+.blog-link:after{
     content: attr(data-content);
 }
 /* -- social media -- */

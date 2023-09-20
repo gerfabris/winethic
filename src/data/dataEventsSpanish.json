@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "name": "Evento 1",
+        "description": "Descripción 1",
+        "href": "#"
+    },
+    {
+        "id": 2,
+        "image": "",
+        "name": "Evento 2",
+        "description": "Descripción 2",
+        "href": "#"
+    }
+]

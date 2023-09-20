@@ -6,18 +6,21 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-size: 10px;
+    line-height: 8px;
 }
 .impulsarDev-image {
-    max-width: 200px;
-    max-height: 150px;
+    max-width: 100px;
+    max-height: 75px;
 }
 .impulsarDev-title {
-    font-size: 14px;
-    line-height: 10px;
+    font-size: 10px;
+    line-height: 8px;
     margin-top: 1em;    
     color: #fff;
     font-family: 'Coolvetica';
     margin-right: 2em;
+    font-weight: normal;
 }
 @media screen and (max-width: 520px) {
     .container-impulsarDev{

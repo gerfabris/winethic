@@ -1,21 +1,22 @@
-.services-page {
-/*     padding-left: 100px;
-    padding-right: 50px;
-    width: calc(100% - 150px); */
-    position: initial;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    margin-top: 0em;
-}
-/* -- services title -- */
-.services-page-title {
+.blog-page {
+    /*     padding-left: 100px;
+        padding-right: 50px;
+        width: calc(100% - 150px); */
+        position: initial;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        margin-top: 2em;
+    }
+/* -- blog title -- */
+.blog-page-title {
 /*     margin-left: 100px;
- */    
+    */    
+    margin-top: 2em;
     margin-bottom: 2em;
     margin-left: 1em;
     font-size: 53px;
@@ -23,14 +24,13 @@
     color: #A85281;
     font-weight: 400;
 /*     margin-top: 1em;
- */    position: relative;
+    */    position: relative;
     left: 10px;
     width: 90%;
     display: flex;
     justify-content: flex-start;
-    margin-top: 2em;
 }
-.services-page-title::before{
+.blog-page-title::before{
     content: '<win>';
     font-family: 'La Belle Aurore';
     font-size: 18px;
@@ -40,7 +40,7 @@
     opacity: .6;
     line-height: 18px;
 }
-.services-page-title::after{
+.blog-page-title::after{
     content: '<ethic/>';
     font-family: 'La Belle Aurore';
     font-size: 18px;
@@ -49,40 +49,63 @@
     left: -40px;
     bottom: -20px;
 /*     margin-left: 20px;
- */    opacity: .6;
+    */    opacity: .6;
 }
+/* -- subtitle -- */
+.blog-page-subtitle {
+        margin-bottom: 2em;
+        margin-left: 1em;
+        font-size: 43px;
+        font-family: 'Coolvetica';
+        color: #A85281;
+        font-weight: 400;
+        width: 90%;
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+    }
 /* -- text animate -- */
-.services-page .text-animate-hover:hover{
+.blog-page .text-animate-hover:hover{
     color: #fff;
 }
 /* -- tags -- */
+/* .top-tags,
+.tags,
 .bottom-tag-html{
     display: none;
-}
+} */
 /* ------- */
-.containerRender{
+.containerRender-events, .containerRender-notes{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.images-container {
+.containerRender-events .images-container {
     display: flex;
-    gap: 15px;
+    gap: 2em;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    width: 95%;
-/*     padding-bottom: 100px;
- */}
-.image-box {
+    width: 90%;
+}
+.containerRender-notes .images-container {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.containerRender-events .image-box {
     position: relative;
     flex: 1 1 20%;
     height: 400px;
     overflow: hidden;
     border-radius: 10px;
     width: 30%;
-    max-width: 350px /* calc(25% - 10px) */;
+    max-width: 350px;
     opacity: 0;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
@@ -97,7 +120,7 @@
 .image-box:nth-of-type(3){
     animation-delay: 3.2s;
 }
-.service-image {
+.image-image {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -121,13 +144,11 @@
     font-weight: 500;
     line-height: 24px;
 }
-.services-page .description {
+.description {
     font-size: 14px;
     margin-bottom: 5px;
     color: #fff;
-    font-weight: normal;
-    width: 90%;
-    display: none;
+    font-weight: 700;
 }
 .image-box .btn {
     margin-top: 30px;
@@ -145,11 +166,11 @@
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     cursor: pointer;
 }
-.services-page .image-box .btn:hover {
+.blog-page .image-box .btn:hover {
     transform: translateY(-3px);
     background: #A85281;
 }
-.services-page .image-box:after {
+.blog-page .image-box:after {
     content: "";
     background: linear-gradient(180deg, #A85281, #000);
     position: absolute;
@@ -163,19 +184,15 @@
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     opacity: 0;
 }
-.services-page .image-box:hover:after {
+.blog-page .image-box:hover:after {
     opacity: 0.85;
 }
-.services-page .image-box:hover .content {
+.blog-page .image-box:hover .content {
     bottom: 0;
     background: transparent;
 }
-.services-page .image-box:hover .description {
-    display: block;
-    font-weight: normal;
-}
 @media screen and (max-width: 1200px){
-    .services-page{
+    .blog-page{
         width: 100%;
         padding: 1em;
         box-sizing: border-box;
@@ -184,20 +201,26 @@
         justify-content: center;
         flex-direction: column;
     }   
-    .containerRender{
+    .containerRender-events{
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .services-page-title{
+    .containerRender-notes{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-page-title{
         margin-left: 0;
         margin-top: 10px;
         font-size: 30px;
         text-align: center;       
     }
-    .services-page-title::before,
-    .services-page-title::after{
+    .blog-page-title::before,
+    .blog-page-title::after{
         display: none;
     }
     .images-container{

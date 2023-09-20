@@ -43,7 +43,7 @@ export const Products = () => {
                 </h1>
                 <div className="containerRender">{renderServices(services)}</div>
             </div>
-            <Loader type="pacman" />
+            <Loader type="ball-zig-zag-deflect" />
         </>
     )
 }
