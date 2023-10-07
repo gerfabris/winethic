@@ -1,4 +1,5 @@
-import LogoHome from '../../assets/logos/WinEthic - W.png'
+/* import LogoHome from '../../assets/logos/WinEthic - W.png'
+ */import LogoHome from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
 import LogoHomeMobile from '../../assets/logotipes/WinEthic_logoOK_Color_Transparente.png'
 /* import LogoHome from '../../assets/logo/Logo W.png' */
 import Loader from 'react-loaders'
@@ -46,7 +47,7 @@ export const Home = () => {
     return(
         <>
             <div className='container home-page'>
-                <div className='text-zone'>
+                <section className='text-zone'>
                     <h1 className='home-h1'>
                         <AnimatedLetters
                             letterClass={letterClass}
@@ -76,29 +77,44 @@ export const Home = () => {
                             className={`${letterClass}`}
                         />
                     </h1>
-                    <h2 className='home-h2'>
+                    <article className='home-container-services'>
                         <Link to={'/services'}>
-                            {t('home.services.one')}
+                            {t('home.services.cripto')}
                         </Link>
-                        /
+                        <span className='home-services-span'>
+                            /
+                        </span>
                         <Link to={'/services'}>
-                            {t('home.services.two')}
+                            {t('home.services.blockchain')}
                         </Link>
-                        /
+                        <span className='home-services-span'>
+                            /
+                        </span>
                         <Link to={'/services'}>
-                            {t('home.services.three')}
-                        </Link>                        
-                    </h2>
+                            {t('home.services.esports')}
+                        </Link>
+                    </article>
+                    <article className='home-container-services'>                    
+                        <Link to={'/services'}>
+                            {t('home.services.videogames')}
+                        </Link>
+                        <span className='home-services-span'>
+                            /
+                        </span>
+                        <Link to={'/services'}>
+                            {t('home.services.startups')}
+                        </Link>
+                    </article>
                     <div className='container-flat-button'>
                         <Link to='/contact' className='flat-button'>
                             {t('home.button.contactUs')}
                         </Link>
-                        <Link to='/contact' className='flat-button'>
+                        <Link to='/services' className='flat-button'>
                             {t('home.button.seeMore')}
                         </Link>
                     </div>
                     <Logo />
-                </div>
+                </section>
             </div>
             <Loader type='ball-zig-zag-deflect' />
         </>

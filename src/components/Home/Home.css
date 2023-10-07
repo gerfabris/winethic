@@ -48,7 +48,7 @@
     animation: rotateIn 1s linear both;
     animation-delay: 1.4s;
 }
-.home-h2{
+.home-container-services{
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
@@ -56,8 +56,14 @@
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .2em;
 }
-.home-h2 a{
+.home-container-services a{
     text-decoration: none;
     color: #8d8d8d;
     margin-left: .5em;
@@ -154,4 +160,17 @@
     .home-h1{
         font-size: 34px;
     }
+    .container-flat-button{
+        flex-direction: column;
+    }
+    .home-container-services{
+        width: 80%;
+    }
+    .home-container-services a{
+        margin-top: 1em;
+    }
+    .home-container-services .home-services-span{
+        margin-top: 1em;
+    }
+
 }

@@ -1,4 +1,5 @@
-import logo from '../../assets/logos/WinEthic - Completo.png'
+/* import logo from '../../assets/logos/WinEthic - Completo.png'
+ */import logo from '../../assets/logos/WinEthic_logoOK_BlancoLila_Transparente-recortado.png'
 import { Link, NavLink } from 'react-router-dom'
 import { FaFacebook,  FaLinkedin, FaWhatsapp } from "react-icons/fa";
 /* import logo from '../../assets/logo/Logo W.png' */

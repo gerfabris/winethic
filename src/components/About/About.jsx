@@ -3,6 +3,8 @@ import { useState , useEffect } from 'react'
 import { AnimatedLetters } from '../AnimatedLetters/AnimatedLetters'
 import { FaHive } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
+import logoW_white from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
+import logoW_black from '../../assets/logos/WinEthic - W.png'
 import './About.css'
 
 export const About = () => {
@@ -45,22 +47,28 @@ export const About = () => {
                 <div className='stage-cube-cont'>
                     <div className='cubespinner'>
                         <div className='cube-face face1'>
-                            <FaHive className='about-icon' fill='#DD0031'/>
+                            {/* <FaHive className='about-icon' fill='#DD0031'/> */}
+                            <img src={logoW_white} alt="WinEtic" className='cubespinner-logo'/>
                         </div>
                         <div className='cube-face face2'>
-                            <FaHive className='about-icon' fill='#F06529'/>
+                            {/* <FaHive className='about-icon' fill='#F06529'/> */}
+                            <img src={logoW_black} alt="WinEtic" className='cubespinner-logo'/>
                         </div>
                         <div className='cube-face face3'>
-                            <FaHive className='about-icon' fill='#28A4D9'/>
+                            {/* <FaHive className='about-icon' fill='#28A4D9'/> */}
+                            <img src={logoW_black} alt="WinEtic" className='cubespinner-logo'/>
                         </div>
                         <div className='cube-face face4'>
-                            <FaHive className='about-icon' fill='#5ED4F4'/>
+                            {/* <FaHive className='about-icon' fill='#5ED4F4'/> */}
+                            <img src={logoW_white} alt="WinEtic" className='cubespinner-logo'/>
                         </div>
                         <div className='cube-face face5'>
-                            <FaHive className='about-icon' fill='#EDF81D'/>
+                            {/* <FaHive className='about-icon' fill='#EDF81D'/> */}
+                            <img src={logoW_black} alt="WinEtic" className='cubespinner-logo'/>
                         </div>
                         <div className='cube-face face6'>
-                            <FaHive className='about-icon' fill='#DD0031'/>
+                            {/* <FaHive className='about-icon' fill='#DD0031'/> */}
+                            <img src={logoW_white} alt="WinEtic" className='cubespinner-logo'/>
                         </div>
                     </div>
                 </div>

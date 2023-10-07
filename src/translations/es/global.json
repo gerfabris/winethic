@@ -11,9 +11,11 @@
             "seeMore": "VER MÁS"
         },
         "services":{
-            "one": "Cripto",
-            "two": "Compliance",
-            "three": "Foundraising & Terms sheets"
+            "cripto": "Cripto Compliance",
+            "blockchain": "Blockchain",
+            "esports": "eSports",
+            "videogames": "Videojuegos",
+            "startups": "Startups"
         }
     },
     "services":{
