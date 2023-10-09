@@ -6,7 +6,7 @@
     max-width: 100vw;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(180deg, #A85281, #000);
+    background: linear-gradient(180deg, #181818 , #000); /* #A85281 */
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     color: #fff;
     font-family: 'Coolvetica';
@@ -82,7 +82,8 @@
     align-items: center;
 }
 .footer-sections-content-link:hover{
-    color: color-mix(in hwb longer hue, #990a0a, #9900ff 76%);
+/*     color: color-mix(in hwb longer hue, #990a0a, #9900ff 76%);
+ */    color: #A85281;
 }
 .footer-sections-copyright{
     width: 100%;
@@ -142,7 +143,8 @@
     fill: #fff;
 }
 .footer-socialMedia-a:hover .footer-socialMedia-svg{
-    fill: #022c43;
+/*     fill: #022c43;
+ */    fill: #A85281;
 }
 @media screen and (max-width: 1200px){
     .footer{

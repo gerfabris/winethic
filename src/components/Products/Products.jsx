@@ -41,6 +41,17 @@ export const Products = () => {
                         idx={10}
                     />
                 </h1>
+                <div className="services-intro-container">
+                    <p className="services-intro-paragraph">
+                        {t('services.intro.paragraph.first')}
+                    </p>
+                    <p className="services-intro-paragraph">
+                        {t('services.intro.paragraph.second')}
+                    </p>
+                    <p className="services-intro-paragraph">
+                        {t('services.intro.paragraph.third')}
+                    </p>
+                </div>
                 <div className="containerRender">{renderServices(services)}</div>
             </div>
             <Loader type="ball-zig-zag-deflect" />

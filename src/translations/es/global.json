@@ -20,6 +20,13 @@
     },
     "services":{
         "title": "Nuestros Servicios",
+        "intro": {
+            "paragraph": {
+                "first": "Somos una firma especializada en diversas áreas. Contamos con un equipo profesional multidisciplinario que presta servicios de asesoramiento y representación a pequeñas, medianas y grandes empresas, así como a particulares.",
+                "second": "Hacemos un refuerzo de cumplimiento normativo, utilizamos herramientas legales que permiten empoderar a nuestros clientes.",
+                "third": "Nos preocupa defender tus derechos y tu reputación."
+            }
+        },
         "service-1-title":"CRYPTOACTIVOS Y BLOCKCHAIN",
         "service-1-description":"",
         "service-2-title":"",

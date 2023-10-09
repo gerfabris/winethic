@@ -10,20 +10,18 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    margin-top: 0em;
+    margin-top: 2em;
 }
 /* -- services title -- */
 .services-page-title {
 /*     margin-left: 100px;
  */    
-    margin-bottom: 2em;
     margin-left: 1em;
     font-size: 53px;
     font-family: 'Coolvetica';
     color: #A85281;
     font-weight: 400;
-/*     margin-top: 1em;
- */    position: relative;
+    position: relative;
     left: 10px;
     width: 90%;
     display: flex;
@@ -59,6 +57,24 @@
 .bottom-tag-html{
     display: none;
 }
+/* -- Section Intro */
+.services-intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 4em;
+    width: 80%;
+    color: #fff;
+}
+.services-intro-paragraph{
+    width: 90%;
+    font-size: 15px;
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Coolvetica';
+}
 /* ------- */
 .containerRender{
     width: 100%;
@@ -82,7 +98,8 @@
     overflow: hidden;
     border-radius: 10px;
     width: 30%;
-    max-width: 350px /* calc(25% - 10px) */;
+    min-width: 300px;
+    max-width: 320px /* calc(25% - 10px) */;
     opacity: 0;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
@@ -214,5 +231,12 @@
         width: 20rem;
         height: 400px;
         flex: auto;
+    }
+}
+@media screen and (max-width: 520px){
+    .services-intro-paragraph{
+        width: 90%;
+        font-size: 15px;
+        font-weight: lighter;
     }
 }

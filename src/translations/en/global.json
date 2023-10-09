@@ -20,6 +20,13 @@
     },
     "services":{
         "title": "Our Services",
+        "intro": {
+            "paragraph": {
+                "first": "We are a firm specialized in various areas. We have a multidisciplinary professional team that provides advisory and representation services to small, medium and large companies, as well as individuals.",
+                "second": "We reinforce regulatory compliance, we use legal tools that empower our clients.",
+                "third": "We are concerned about defending your rights and your reputation"
+            }
+        },
         "service-1-title":"CRYPTOACTIVOS & BLOCKCHAIN",
         "service-1-description":"",
         "service-2-title":"",
@@ -27,7 +34,7 @@
         "service-3-title":"",
         "service-3-description":"",
         "service-4-title":"",
-        "service-4-description":""     
+        "service-4-description":""
     },
     "about":{
         "title" : "About Us",
