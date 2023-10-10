@@ -40,8 +40,25 @@
         "title" : "About Us",
         "paragraphFirst": "At Winethic Lawyers, we strive to build reliable long-term relationships with our clients by relieving the burden of legal and compliance departments through stellar, personalized, and efficient service that allows them to focus on what matters most: growing an innovative technology company in accordance with the highest ethical pillars and standards.",
         "paragraphSecond": "WINETHIC was launched to assist startups and emerging businesses in overcoming the challenges associated with legal and compliance strategy and planning. Whether it's raising additional operating capital or meeting Board requirements, our team of dynamic advisors is here to help.",
-        "paragraphThird": "We pride ourselves on tailoring our approach to the needs of each client. By assisting multiple companies, our team has gained knowledge in various disruptive technological industries."
-        
+        "paragraphThird": "We pride ourselves on tailoring our approach to the needs of each client. By assisting multiple companies, our team has gained knowledge in various disruptive technological industries.",
+        "cv_natalia": {
+            "first": "Lawyer, from the National University of Cuyo, specialized in executive esports program from the University of Palermo.",
+            "second": "Specialized in SME strategic course, National University of Cuyo, having completed the postgraduate specialization course in new technologies, smart state and digital law at Champagnat University.",
+            "third": "Active member of the Ibero-American EDI Computer Law Network.",
+            "fourth": "Member of the Computer Law Commission of the Bar Association of the first district of Mendoza.",
+            "fifth": "Asesora de empresa ISP de telecomunicaciones. Especialización en Compliance y ética empresarial Universidad del Aconcagua.",
+            "sect": "Professor of the higher diploma in Compliance, integrity, responsibility and transparency programs at the Universidad de Congreso.",
+            "seventh": "Taking the electronic sports diploma from the University of Rio Negro."
+        },
+        "cv_claudia": {
+            "first": "Lawyer from the National University of Cuyo.",
+            "second": "Diploma in Compliance, Corporate Ethics and Integrity Processes from the University of Mendoza, active member of the Ibero-American EDI Computer Law Network.",
+            "third": "Active member of the commission of the bar association of the first constituency of Mendoza.",
+            "fourth": "Advisor to ISP telecommunications companies.",
+            "fifth": "Postgraduate specialization courses in New Technologies, Intelligent State and Digital Law at Champagnat University.",
+            "sect": "Professor of the higher diploma in Compliance, integrity, responsibility and transparency programs at the Universidad de Congreso.",
+            "seventh": "Master of business law at the Austral University."
+        }
     },
     "contact":{
         "title" : "Contact Us",

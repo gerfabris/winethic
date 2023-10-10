@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router-dom'
 import { FaFacebook,  FaLinkedin, FaWhatsapp } from "react-icons/fa";
 /* import logo from '../../assets/logo/Logo W.png' */
 import { useTranslation } from 'react-i18next'
-import './Footer.css'
 import { ImpulsarDev } from '../ImpulsarDev/ImpulsarDev';
+import './Footer.css'
 
 export const Footer = () => {
     /* -- translations -- */

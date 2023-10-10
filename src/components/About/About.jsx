@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import logoW_white from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
 import logoW_black from '../../assets/logos/WinEthic - W.png'
 import './About.css'
+import { Curriculum } from '../Curriculum/Curriculum'
 
 export const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -73,6 +74,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
+            <Curriculum/>
             <Loader type='pacman' />
         </>
     )

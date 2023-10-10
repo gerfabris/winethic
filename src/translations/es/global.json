@@ -40,8 +40,25 @@
         "title" : "Sobre nosotros",
         "paragraphFirst": "En Winethic abogados, nos esforzamos por construir relaciones confiables a largo plazo con nuestros clientes al eliminar la carga del departamento de legales y compliance con un servicio estelar, personalizado y eficiente que les permita concentrarse en lo que más importa; hacer crecer una empresa de tecnología innovadora de acuerdo a los pilares y estándares éticos más elevados.",
         "paragraphSecond": "Se lanzó WINETHIC para ayudar a las nuevas empresas y empresas en ascenso a superar los desafíos asociados con la estrategia y la planificación legal y de compliance. Ya sea para recaudar capital operativo adicional o para cumplir con los requisitos de la Junta Directiva, nuestro equipo de asesores dinámicos está aquí para ayudarlo.",
-        "paragraphThird": "Nos enorgullecemos de adaptar nuestro enfoque a las necesidades de cada cliente. Al ayudar a múltiples empresas, nuestro equipo ha adquirido conocimiento de varias industrias disruptivas tecnológicas."
-        
+        "paragraphThird": "Nos enorgullecemos de adaptar nuestro enfoque a las necesidades de cada cliente. Al ayudar a múltiples empresas, nuestro equipo ha adquirido conocimiento de varias industrias disruptivas tecnológicas.",
+        "cv_natalia": {
+            "first": "Abogada, por la universidad Nacional de Cuyo, especializada en programa ejecutivo de esports por la universidad de Palermo.",
+            "second": "Especializada en curso estratégico de Pymes Universidad Nacional de Cuyo, habiendo realizado el curso de especialización de posgrado en nuevas tecnologías, estado inteligente y derecho digital de la universidad Champagnat.",
+            "third": "Miembro activo de la Red iberoamericana de derecho informático EDI.",
+            "fourth": "Miembro de la Comisión de derecho informático del colegio de abogados de la primera circunscripción de Mendoza.",
+            "fifth": "Asesora de empresa ISP de telecomunicaciones. Especialización en Compliance y ética empresarial Universidad del Aconcagua.",
+            "sect": "Docente de la diplomatura superior en Compliance, programas de integridad, responsabilidad y transparencia de la Universidad de Congreso.",
+            "seventh": "Cursando la diplomatura de deportes electrónicos de la Universidad de Rio Negro."
+        },
+        "cv_claudia": {
+            "first": "Abogada por la Universidad Nacional de Cuyo.",
+            "second": "Diplomada en Compliance, Ética Corporativa y Procesos de integridad  por la universidad de Mendoza, miembro activo de la Red iberoamericana de derecho informático EDI.",
+            "third": "Miembro activo de la comisión del colegio de abogados de la primera circunscripción de Mendoza.",
+            "fourth": "Asesora de empresas ISP de telecomunicaciones.",
+            "fifth": "Cursos de especialización de posgrado en Nuevas tecnologías, estado inteligente y derecho digital de la universidad Champagnat.",
+            "sect": "Docente de la diplomatura superior en Compliance, programas de integridad, responsabilidad y transparencia de la Universidad de Congreso.",
+            "seventh": "Maestrando de derecho empresarial en la Universidad Austral."
+        }
     },
     "contact":{
         "title" : "Contacto",

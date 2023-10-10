@@ -1,0 +1,176 @@
+.curriculum-container-general{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    flex-direction: column;
+}
+/* section cards */
+.curriculum-container-cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4em;
+    margin-bottom: 2em;
+}
+.curriculum-card{
+    width: 50%;
+    height: 50em;
+    max-width: 600px;
+    max-height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 1));
+}
+.curriculum-container-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.curriculum-card-title{
+    font-family: 'Coolvetica';
+    font-size: 26px;
+    text-align: center;
+    color: #A85281;
+    letter-spacing: .2ch;
+}
+.curriculum-card-content{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.curriculum-card-container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-width: 250px;
+    height: 100%;
+    max-width: 250px;
+    max-height: 350px;
+}
+.curriculum-card-image{
+    width: 100%;
+    height: 100%;
+}
+.curriculum-card-container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15%;
+}
+/* -- social media -- */
+.curriculum-container-socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.curriculum-socialMedia-li{
+
+}
+.curriculum-socialMedia-a{
+    padding: 0 7px;
+    font-size: 20px;
+    line-height: 16px;
+}
+.curriculum-socialMedia-svg{
+    fill: #fff;
+}
+.curriculum-socialMedia-a:hover .curriculum-socialMedia-svg{
+/*     fill: #022c43;
+ */    fill: #A85281;
+}
+/* partner section */
+.curriculum-container-partners{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    flex-direction: row;
+}
+.container-parter{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-partner-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.partner-title{
+    font-family: 'Coolvetica';
+    font-size: 26px;
+    text-align: center;
+    color: #A85281;
+}
+.container-partner-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+.partner-paragraph{
+    font-family: 'Coolvetica';
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .curriculum-card{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 920px) {
+    .curriculum-container-partners{
+        flex-direction: column;
+    }
+    .container-parter{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .curriculum-card-content{
+        flex-direction: column;
+    }
+    .curriculum-card-container-image{
+        height: 80%;
+    }
+    .curriculum-card-container-contact{
+        margin-bottom: 2em;
+    }
+    .curriculum-container-socialMedia{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
