@@ -11,7 +11,7 @@
 .curriculum-container-cards{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@
 .curriculum-card{
     width: 50%;
     height: 50em;
-    max-width: 600px;
+    max-width: 500px;
     max-height: 550px;
     display: flex;
     justify-content: space-evenly;
@@ -136,16 +136,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 90%;
+    width: 70%;
 }
 .partner-paragraph{
     font-family: 'Coolvetica';
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     color: #fff;
 }
-
-
 @media screen and (max-width: 1300px) {
     .curriculum-card{
         width: 90%;
@@ -172,5 +170,11 @@
     .curriculum-container-socialMedia{
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+    .container-partner-paragraph{
+        width: 80%;
+    }
+    .partner-paragraph{
+        text-align: center;
     }
 }
