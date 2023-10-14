@@ -1,5 +1,6 @@
 import { useRef , useEffect } from 'react'
-import logoSolid from '../../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
+import logoSolid from '../../../assets/logos/WinEthic - W-2.png'
+/* import logoSolid from '../../../assets/logos/WinEthic_logoOK_BlancoLila-w.png' */
 /* import logoSolid from '../../../assets/logo/Logo W.png' */
 import { gsap } from 'gsap'
 /* import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin' */
@@ -41,9 +42,9 @@ export const Logo = () => {
             <img src={logoSolid} alt="" className='solid-logo' ref={solidLogoRef}/>
             <svg version="1.0" 
                 xmlns="http://www.w3.org/2000/svg"
-                width="300" /* 559 */ 
-                height="240" /* 897 */
-                viewBox="-8 0 250.000000 180.000000" /* "0 0 235.000000 170.000000" */
+                width="300" /* 559 */  /* 300 */
+                height="240" /* 897 */ /* 240 */
+                viewBox="0 0 237.000000 180.000000" /* "0 0 235.000000 170.000000" */ /* "-8 0 250.000000 180.000000" */
                 preserveAspectRatio="xMidYMid meet"
                 className='logo-svg'
             >

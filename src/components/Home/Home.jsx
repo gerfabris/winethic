@@ -1,6 +1,8 @@
-/* import LogoHome from '../../assets/logos/WinEthic - W.png'
- */import LogoHome from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
-import LogoHomeMobile from '../../assets/logotipes/WinEthic_logoOK_Color_Transparente.png'
+/* import LogoHome from '../../assets/logos/WinEthic - W.png' */
+import LogoHome from '../../assets/logos/WinEthic - W-2.png'
+/* import LogoHome from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png' */
+/* import LogoHomeMobile from '../../assets/logotipes/WinEthic_logoOK_Color_Transparente.png' */
+import LogoHomeMobile from '../../assets/logos/WinEthic - W-2.png'
 /* import LogoHome from '../../assets/logo/Logo W.png' */
 import Loader from 'react-loaders'
 import { useState , useEffect } from 'react'

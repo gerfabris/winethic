@@ -83,11 +83,11 @@ export const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          WineThic Legal Solutions,
+          WinEthic Legal Solutions,
           <br />
-          Argentina pa,
+          Pedro Molina 471
           <br />
-          Mendoza City,
+          Mendoza, Argentina.
           <br />
           <span className="info-map-span">winethic@gmail.com</span>
         </div>

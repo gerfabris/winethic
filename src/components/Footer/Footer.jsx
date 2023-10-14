@@ -1,5 +1,6 @@
-/* import logo from '../../assets/logos/WinEthic - Completo.png'
- */import logo from '../../assets/logos/WinEthic_logoOK_BlancoLila_Transparente-recortado.png'
+import logo from '../../assets/logos/WinEthic - Completo.png'
+
+/* import logo from '../../assets/logos/WinEthic_logoOK_BlancoLila_Transparente-recortado.png' */
 import { Link, NavLink } from 'react-router-dom'
 import { FaFacebook,  FaLinkedin, FaWhatsapp } from "react-icons/fa";
 /* import logo from '../../assets/logo/Logo W.png' */
@@ -25,6 +26,7 @@ export const Footer = () => {
                             <h2 className='footer-sections-content-title'>
                                 {t('footer.specialties.title') }
                             </h2>
+                            <hr className="footer-sections-content-hr" />
                             <p className='footer-sections-content-link'>
                                 {t('footer.specialties.compliance') }
                             </p>
@@ -36,6 +38,7 @@ export const Footer = () => {
                             <h2 className='footer-sections-content-title'>
                                 {t('footer.information.title') }
                             </h2>
+                            <hr className="footer-sections-content-hr" />
                             <p className='footer-sections-content-link'>
                                 {t('footer.information.location') }
                             </p>
@@ -47,6 +50,7 @@ export const Footer = () => {
                             <h2 className='footer-sections-content-title'>
                                 {t('footer.navigation.title') }
                             </h2>
+                            <hr className="footer-sections-content-hr" />
                             <NavLink to={'/'} className='footer-sections-content-link'>
                                 {t('footer.navigation.home') }
                             </NavLink>

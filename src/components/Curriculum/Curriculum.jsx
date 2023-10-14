@@ -109,7 +109,7 @@ export const Curriculum = () => {
                 <div className="container-parter">
                     <div className="container-partner-title">
                         <h3 className="partner-title">
-                            Claudia Belloti
+                            Claudia Bellotti
                         </h3>
                     </div>
                     <div className="container-partner-paragraph">
@@ -139,7 +139,7 @@ export const Curriculum = () => {
                 <div className="container-parter">
                     <div className="container-partner-title">
                         <h3 className="partner-title">
-                            Natalia Belloti
+                            Natalia Bellotti
                         </h3>
                     </div>
                     <div className="container-partner-paragraph">

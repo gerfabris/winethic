@@ -61,8 +61,8 @@
         }
     },
     "contact":{
-        "title" : "Contacto",
-        "speach": "Algo pa escribir",
+        "title" : "Contacta con nosotros",
+        "speach": "Estamos encantados de poder resolver cualquier inquietud que nos plantees por favor escribinos, llamanos o veni a vernos, completando el siguiente formulario.",
         "name" : "Nombre",
         "email" : "Email",
         "subject" : "Asunto",

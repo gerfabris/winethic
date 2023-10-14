@@ -62,7 +62,7 @@
     },
     "contact":{
         "title" : "Contact Us",
-        "speach": "Something to write",
+        "speach": "We are delighted to be able to resolve any concerns you may have. Please write to us, call us or come see us by completing the following form.",
         "name" : "Name",
         "email" : "Email",
         "subject" : "Subjet",
