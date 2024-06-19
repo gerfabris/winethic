@@ -13,18 +13,19 @@
         "services":{
             "cripto": "Crypto Compliance",
             "blockchain": "Blockchain",
-            "esports": "eSports",
-            "videogames": "Videogames",
-            "startups": "Startups"
+            "esports": "Esports",
+            "business-law": "Business Law",
+            "others": "Labor Law"
         }
     },
     "services":{
         "title": "Our Services",
         "intro": {
             "paragraph": {
-                "first": "We are a firm specialized in various areas. We have a multidisciplinary professional team that provides advisory and representation services to small, medium and large companies, as well as individuals.",
+                "first": "We are concerned about defending your rights and reputation.",
                 "second": "We reinforce regulatory compliance, we use legal tools that empower our clients.",
-                "third": "We are concerned about defending your rights and your reputation"
+                "third": "Prevention of sanctions: we will implement processes to reduce legal risks, with the aim of establishing positive and lasting relationships.",
+                "fourth": "Legal advice on cryptocurrencies, Regulatory compliance, Corporate law, Foundraising and terms sheets."
             }
         },
         "service-1-title":"CRYPTOACTIVOS & BLOCKCHAIN",
@@ -38,9 +39,12 @@
     },
     "about":{
         "title" : "About Us",
-        "paragraphFirst": "At Winethic Lawyers, we strive to build reliable long-term relationships with our clients by relieving the burden of legal and compliance departments through stellar, personalized, and efficient service that allows them to focus on what matters most: growing an innovative technology company in accordance with the highest ethical pillars and standards.",
-        "paragraphSecond": "WINETHIC was launched to assist startups and emerging businesses in overcoming the challenges associated with legal and compliance strategy and planning. Whether it's raising additional operating capital or meeting Board requirements, our team of dynamic advisors is here to help.",
-        "paragraphThird": "We pride ourselves on tailoring our approach to the needs of each client. By assisting multiple companies, our team has gained knowledge in various disruptive technological industries.",
+        "paragraphFirst": "Winethic arises from the combination Win + Ethic, the idea of ​​this name is to win with ethics, understood as such according to the English philosopher John Stuart Mill...\"the system of values ​​that guides and orients human behavior towards good\".",
+        "paragraphSecond": "Our mission is to carry out the resolution, execution and see the traceability of cases and projects with transparency and integrity.",
+        "paragraphThird": "We know the needs that a company has to go through at the beginning and throughout its life, so our objective will be to accompany it and establish the measures for its best development from the beginning.",
+        "paragraphFourth": "To achieve this, we will carry out a risk assessment to know the vulnerability or degree of exposure of your company, which is essential for the analysis of the steps to follow.",
+        "paragraphFifth": "We are a comprehensive legal firm specialized in Compliance and consulting in Prevention of Money Laundering and Terrorist Financing.",
+        "paragraphSixth": "We have a professional team of lawyers and advisors in other disciplines, which allows us to provide various advisory and representation services to small, medium and large companies, as well as individuals, in different branches such as inheritance, property rights, labor law, law of families.",
         "cv_natalia": {
             "first": "Lawyer, from the National University of Cuyo, specialized in executive esports program from the University of Palermo.",
             "second": "Specialized in SME strategic course, National University of Cuyo, having completed the postgraduate specialization course in new technologies, smart state and digital law at Champagnat University.",
@@ -77,14 +81,20 @@
             "about": "About Us",
             "contact": "Contact Us"
         },
+        "copyright":{
+            "follow": "Follow us"
+        },
         "information":{
             "title": "Contact",
             "location": "Mendoza, Argentina"
         },
         "specialties":{
             "title": "Our Specialties",
-            "compliance": "Compliance",
-            "cripto": "Cripto"
+            "cripto": "Crypto Compliance",
+            "blockchain": "Blockchain",
+            "esports": "Esports",
+            "business-law": "Business Law",
+            "others": "Labor Law"
         }
     },
     "navbar": {

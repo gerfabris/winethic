@@ -1,5 +1,5 @@
 /* import LogoHome from '../../assets/logos/WinEthic - W.png' */
-import LogoHome from '../../assets/logos/WinEthic - W-2.png'
+import LogoHome from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
 /* import LogoHome from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png' */
 /* import LogoHomeMobile from '../../assets/logotipes/WinEthic_logoOK_Color_Transparente.png' */
 import LogoHomeMobile from '../../assets/logos/WinEthic - W-2.png'
@@ -98,13 +98,13 @@ export const Home = () => {
                     </article>
                     <article className='home-container-services'>                    
                         <Link to={'/services'}>
-                            {t('home.services.videogames')}
+                            {t('home.services.business-law')}
                         </Link>
                         <span className='home-services-span'>
                             /
                         </span>
                         <Link to={'/services'}>
-                            {t('home.services.startups')}
+                            {t('home.services.others')}
                         </Link>
                     </article>
                     <div className='container-flat-button'>

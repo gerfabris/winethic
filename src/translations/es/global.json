@@ -13,18 +13,19 @@
         "services":{
             "cripto": "Cripto Compliance",
             "blockchain": "Blockchain",
-            "esports": "eSports",
-            "videogames": "Videojuegos",
-            "startups": "Startups"
+            "esports": "Esports",
+            "business-law": "Derecho Empresarial",
+            "others": "Derecho Laboral"
         }
     },
     "services":{
         "title": "Nuestros Servicios",
         "intro": {
             "paragraph": {
-                "first": "Somos una firma especializada en diversas áreas. Contamos con un equipo profesional multidisciplinario que presta servicios de asesoramiento y representación a pequeñas, medianas y grandes empresas, así como a particulares.",
-                "second": "Hacemos un refuerzo de cumplimiento normativo, utilizamos herramientas legales que permiten empoderar a nuestros clientes.",
-                "third": "Nos preocupa defender tus derechos y tu reputación."
+                "first": "Nos preocupa defender sus derechos y reputación.",
+                "second": "Hacemos un refuerzo de cumplimiento normativo, utilizamos herramientas legales  que permiten empoderar a nuestros clientes.",
+                "third": "Prevencion de sanciones: pondremos en marcha procesos de disminución de riesgos legales, con el objetivo de establecer relaciones positivas y duraderas.",
+                "fourth": "Asesoramiento legal en criptomonedas, Compliance regulatorio, Derecho corporativo, Foundraising and terms sheets."
             }
         },
         "service-1-title":"CRYPTOACTIVOS Y BLOCKCHAIN",
@@ -38,9 +39,12 @@
     },
     "about":{
         "title" : "Sobre nosotros",
-        "paragraphFirst": "En Winethic abogados, nos esforzamos por construir relaciones confiables a largo plazo con nuestros clientes al eliminar la carga del departamento de legales y compliance con un servicio estelar, personalizado y eficiente que les permita concentrarse en lo que más importa; hacer crecer una empresa de tecnología innovadora de acuerdo a los pilares y estándares éticos más elevados.",
-        "paragraphSecond": "Se lanzó WINETHIC para ayudar a las nuevas empresas y empresas en ascenso a superar los desafíos asociados con la estrategia y la planificación legal y de compliance. Ya sea para recaudar capital operativo adicional o para cumplir con los requisitos de la Junta Directiva, nuestro equipo de asesores dinámicos está aquí para ayudarlo.",
-        "paragraphThird": "Nos enorgullecemos de adaptar nuestro enfoque a las necesidades de cada cliente. Al ayudar a múltiples empresas, nuestro equipo ha adquirido conocimiento de varias industrias disruptivas tecnológicas.",
+        "paragraphFirst": "Winethic surge a partir de la combinación Win + Ethic, la idea de este nombre es ganar con ética, comprendiendo como tal según el filósofo inglés John Stuart Mill…\"al sistema de valores que guía y orienta el comportamiento humano hacia el bien\" .",
+        "paragraphSecond": "Nuestra misión consiste en realizar la resolución, ejecución y ver la trazabilidad de los casos y proyectos con transparencia e integridad.",
+        "paragraphThird": "Conocemos las necesidades que una empresa tiene que atravesar al comienzo y durante toda su vida, por lo que nuestro objetivo será acompañarla y establecer las medidas para su mejor desarrollo desde el principio.",
+        "paragraphFourth": "Para lograrlo haremos una valoración de riesgos para conocer la vulnerabilidad o grado de exposición de tu empresa, lo que resulta fundamental, para el análisis de los pasos a seguir.",
+        "paragraphFifth": "Somos un estudio jurídico integral especializado en Compliance y consultoría en Prevención de lavado de Dinero y Financiamiento del Terrorismo.",
+        "paragraphSixth": "Contamos con un equipo profesional de abogados y asesores en otras disciplinas, lo que nos permite prestar diversos servicios de asesoramiento y representación a pequeñas, medianas y grandes empresas, así como a particulares, en diferentes ramas como sucesiones, derechos reales, derecho laboral, derecho de las familias.",
         "cv_natalia": {
             "first": "Abogada, por la universidad Nacional de Cuyo, especializada en programa ejecutivo de esports por la universidad de Palermo.",
             "second": "Especializada en curso estratégico de Pymes Universidad Nacional de Cuyo, habiendo realizado el curso de especialización de posgrado en nuevas tecnologías, estado inteligente y derecho digital de la universidad Champagnat.",
@@ -77,14 +81,20 @@
             "about": "Sobre nosotros",
             "contact": "Contactanos"
         },
+        "copyright":{
+            "follow": "Síguenos en nuestras redes"
+        },
         "information":{
             "title": "Contacto",
             "location": "Mendoza, Argentina"
         },
         "specialties":{
             "title": "Nuestras especialidades",
-            "compliance": "Compliance",
-            "cripto": "Cripto"
+            "cripto": "Cripto Compliance",
+            "blockchain": "Blockchain",
+            "esports": "Esports",
+            "business-law": "Derecho Empresarial",
+            "others": "Derecho Laboral"
         }
     },
     "navbar": {

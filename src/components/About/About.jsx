@@ -5,8 +5,8 @@ import { FaHive } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import logoW_white from '../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
 import logoW_black from '../../assets/logos/WinEthic - W.png'
-import './About.css'
 import { Curriculum } from '../Curriculum/Curriculum'
+import './About.css'
 
 export const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -43,6 +43,15 @@ export const About = () => {
                     </p>
                     <p className='about-p'>
                         {t('about.paragraphThird')}
+                    </p>
+                    <p className='about-p'>
+                        {t('about.paragraphFourth')}
+                    </p>
+                    <p className='about-p'>
+                        {t('about.paragraphFifth')}
+                    </p>
+                    <p className='about-p'>
+                        {t('about.paragraphSixth')}
                     </p>
                 </div>
                 <div className='stage-cube-cont'>

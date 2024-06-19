@@ -33,8 +33,8 @@ export const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p className="contact-p">{t('contact.speach') }</p>
-          <div className="contact-form">
+{/*           <p className="contact-p">{t('contact.speach') }</p>
+ */}          <div className="contact-form">
             <form action="">
               <ul className="contact-form-ul">
                 <li className="contact-form-li half">
@@ -92,10 +92,10 @@ export const Contact = () => {
           <span className="info-map-span">winethic@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[-32.89084, -68.82717]} zoom={13}>
+          <MapContainer center={[-32.8960271,-68.8473763]} zoom={18}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[-32.89084, -68.82717]}>
-              <Popup>WinEthic, come here for the glorious</Popup>
+            <Marker position={[-32.8960271,-68.8473763]}>
+              <Popup>WinEthic, Legal Solutions</Popup>
             </Marker>
           </MapContainer>
         </div>

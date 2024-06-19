@@ -52,7 +52,7 @@
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
@@ -96,6 +96,18 @@
     background: #A85281;
     color: #333;
     transition: all .3s ease-in-out;
+}
+.disappear{
+    animation: disappear 1.4s forwards;
+    animation-delay: 3.4s;
+}
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 @media screen and (max-width: 1200px){
     .home-page{
@@ -172,5 +184,4 @@
     .home-container-services .home-services-span{
         margin-top: 1em;
     }
-
 }

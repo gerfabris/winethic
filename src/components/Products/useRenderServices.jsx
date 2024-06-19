@@ -16,7 +16,7 @@ export const renderServices = (services) => {
                                 <h4 className="description">{service.description}</h4>
                                 <button
                                     className="btn"
-                                    onClick={() => window.open(service.url)}
+                                    onClick={() => window.open(service.href)}
                                 >Contactar</button>
                             </div>
                         </div>

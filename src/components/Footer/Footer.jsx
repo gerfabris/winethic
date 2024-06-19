@@ -1,4 +1,4 @@
-import logo from '../../assets/logos/WinEthic - Completo.png'
+import logo from '../../assets/logos/WinEthic_logoOK_BlancoLila_Transparente-recortado.png'
 
 /* import logo from '../../assets/logos/WinEthic_logoOK_BlancoLila_Transparente-recortado.png' */
 import { Link, NavLink } from 'react-router-dom'
@@ -28,10 +28,19 @@ export const Footer = () => {
                             </h2>
                             <hr className="footer-sections-content-hr" />
                             <p className='footer-sections-content-link'>
-                                {t('footer.specialties.compliance') }
+                                {t('footer.specialties.cripto') }
                             </p>
                             <p className='footer-sections-content-link'>
-                                {t('footer.specialties.cripto') }
+                                {t('footer.specialties.blockchain') }
+                            </p>
+                            <p className='footer-sections-content-link'>
+                                {t('footer.specialties.esports') }
+                            </p>
+                            <p className='footer-sections-content-link'>
+                                {t('footer.specialties.business-law') }
+                            </p>
+                            <p className='footer-sections-content-link'>
+                                {t('footer.specialties.others') }
                             </p>
                         </div>
                         <div className="footer-sections-content">
@@ -69,11 +78,11 @@ export const Footer = () => {
                         <hr className='copyright-hr'/>
                         <div className='copyright-content'>
                             <div className='copyright-content-text'>
-                                Copyright ® WinEthic - 2023
+                                Copyright ® WinEthic - 2024
                             </div>
                             <div className='copyright-socialMedia'>
                                 <h3 className='copyright-socialMedia-title'>
-                                    Follow Us
+                                    {t('footer.copyright.follow') }
                                 </h3>
                                 <ul className='footer-container-socialMedia'>
                                     <li className='footer-socialMedia-li'>

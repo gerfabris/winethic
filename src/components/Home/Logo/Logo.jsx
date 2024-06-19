@@ -1,5 +1,5 @@
 import { useRef , useEffect } from 'react'
-import logoSolid from '../../../assets/logos/WinEthic - W-2.png'
+import logoSolid from '../../../assets/logos/WinEthic_logoOK_BlancoLila-w.png'
 /* import logoSolid from '../../../assets/logos/WinEthic_logoOK_BlancoLila-w.png' */
 /* import logoSolid from '../../../assets/logo/Logo W.png' */
 import { gsap } from 'gsap'
@@ -46,7 +46,7 @@ export const Logo = () => {
                 height="240" /* 897 */ /* 240 */
                 viewBox="0 0 237.000000 180.000000" /* "0 0 235.000000 170.000000" */ /* "-8 0 250.000000 180.000000" */
                 preserveAspectRatio="xMidYMid meet"
-                className='logo-svg'
+                className='logo-svg disappear'
             >
                 
                 <g transform="translate(0.000000,177.000000) scale(0.100000,-0.100000)"

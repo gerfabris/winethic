@@ -66,7 +66,7 @@ export const Sidebar = () => {
                         className='navbar-icon'
                     />
                 </NavLink>
-                <NavLink 
+        {/*         <NavLink 
                     exact='true' 
                     activeclassname='active' 
                     to={'/blog'} 
@@ -77,7 +77,7 @@ export const Sidebar = () => {
                     <FaRegNewspaper 
                         className='navbar-icon'
                     />
-                </NavLink>
+                </NavLink> */}
             </nav>
             <ul className='container-socialMedia'>
                 <li className='socialMedia-li'>

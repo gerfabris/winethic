@@ -3,7 +3,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 6em;
+    margin-top: 16em;
     margin-bottom: 2em;
     flex-direction: column;
 }
@@ -27,7 +27,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 1));
 }
 .curriculum-container-card-title{
@@ -52,6 +52,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2em;
+    margin-bottom: 2em;
 }
 .curriculum-card-container-image{
     display: flex;
@@ -133,7 +134,7 @@
 }
 .container-partner-paragraph{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     width: 70%;
@@ -143,8 +144,12 @@
     font-size: 14px;
     text-align: left;
     color: #fff;
+    width: 100%;
 }
 @media screen and (max-width: 1300px) {
+    .curriculum-container-general{
+        margin-top: 18em;
+    }
     .curriculum-card{
         width: 90%;
     }

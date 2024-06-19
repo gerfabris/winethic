@@ -51,6 +51,9 @@ export const Products = () => {
                     <p className="services-intro-paragraph">
                         {t('services.intro.paragraph.third')}
                     </p>
+                    <p className="services-intro-paragraph">
+                        {t('services.intro.paragraph.fourth')}
+                    </p>
                 </div>
                 <div className="containerRender">{renderServices(services)}</div>
             </div>

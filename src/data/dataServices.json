@@ -1,30 +1,30 @@
 [
     {
         "id": 1,
-        "image": "https://drive.google.com/uc?export=view&id=1u2cw0FefEQKZnUqHdbKFkJzZY96ygJk6",
+        "image": "../src/assets/services/crypto-compliance.webp",
         "name": "CRYPTO COMPLIANCE",
-        "description": "Adecuación a distintas regulaciones sectoriales, cumplimiento normativo y Due Diligence, representación frente a entidades e instituciones públicas, regulatorias, licencias y autorizaciones.",
-        "href": "#"
+        "description": "Ofrecemos servicios legales especializados en criptoactivos y blockchain, incluyendo adecuación regulatoria, cumplimiento normativo, Due Diligence, y representación legal. Nuestro equipo jurídico proporciona soluciones adaptadas y estrategias legales para proyectos tecnológicos en un entorno global y cambiante.",
+        "href": "/contact"
     },
     {
         "id": 2,
-        "image": "https://drive.google.com/uc?export=view&id=1cR19nqfYx0UJgOLGtMSW27h7vz0Lzsv8",
+        "image": "../src/assets/services/blockchain.webp",
         "name": "BLOCKCHAIN",
-        "description": "Asesoramiento legal en relación a proyectos vinculados a tecnologías descentralizadas. Consultoría legal y compliance de Smart contracts. Gestión de información personal en Blockchain. Uso de herramientas con interacción de Blockchain. Asesoramiento a emprendimientos y proyectos NFTs (Non Fungible Tokens).",
-        "href": "#"
+        "description": "Brindamos asesoramiento legal en tecnologías descentralizadas, consultoría de Smart contracts, gestión de datos personales en Blockchain, y apoyo a proyectos NFTs (Non Fungible Tokens), utilizando herramientas avanzadas de interacción blockchain.",
+        "href": "/contact"
     },
     {
         "id": 3,
-        "image": "https://drive.google.com/uc?export=view&id=1BjYIX5VKV2_YFAcf4tLrv9gMpIPko7jv",
-        "name": "ESPORTS DEPORTES ELECTRÓNICOS",
-        "description": "Asesoramos y establecemos defensa a deportiestas, esportistas, clubes, federaciones y asociaciones en procedimientos de diversa índole tanto en la justicia ordinaria como ante tribunales arbitrales. Realizamos contratos, Cesión y traspaso de deportistas. Analizamos las condiciones de acceso a las diferentes ligas, tanto profesionales como semiprofesionales o amateurs.",
-        "href": "#"
+        "image": "../src/assets/services/esports-1.webp",
+        "name": "ESPORTS - DEPORTES ELECTRÓNICOS",
+        "description": " Proporcionamos asesoramiento legal integral en el ámbito de los esports, incluyendo defensa y representación de deportistas y entidades ante tribunales, gestión de contratos y traspasos, negociación de derechos de imagen, patrocinios, y acuerdos con proveedores de streaming y servicios.",
+        "href": "/contact"
     },
     {
         "id": 4,
-        "image": "https://drive.google.com/uc?export=view&id=1W54QmTBz_MsFSY2ML4hzSiIEowCB3ayr",
-        "name": "VIDEOJUEGOS",
-        "description": "Protección jurídica del videojuego que estás desarrollando. Asesoramiento jurídico integral sobre las obligaciones legales del desarrollo de videojuegos. Negociación y elaboración de contratos con los integrantes de tu equipo de trabajo e inversionistas. Contratos de cesión de derechos de propiedad intelectual con colaboradores y freelancers. Contratos de desarrollo de videojuegos, distribución nacional e internacional, propiedad intelectual y licencias. Advergaming. Asesoramiento sobre publicidad in-game. Propiedad Intelectual e Industrial y Plagios. Registro de marcas: nombre del videojuego y de otros elementos.",
-        "href": "#"
+        "image": "../src/assets/services/empresarial.webp",
+        "name": "DERECHO EMPRESARIAL",
+        "description": "Ofrecemos soluciones legales para empresas, abarcando desde la formación corporativa y estructuración de negocios hasta la gestión de riesgos y litigios. Nuestro enfoque está en asegurar la integridad legal y el éxito sostenible de su empresa en el mercado dinámico actual.",
+        "href": "/contact"
     }
 ]

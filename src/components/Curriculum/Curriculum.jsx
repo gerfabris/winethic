@@ -1,13 +1,14 @@
 import { useTranslation } from 'react-i18next'
 import { FaFacebook,  FaLinkedin, FaWhatsapp } from "react-icons/fa";  
+/* pictures */
+const pictureClaudia = '../../src/assets/about/clau.jpg'
+const pictureNatalia = '../../src/assets/about/nati.jpg' 
+//* styles */
 import './Curriculum.css'
 
 export const Curriculum = () => {
     /* -- translations -- */
     const {t} = useTranslation('global');
-    /* pictures */
-    const pictureClaudia = 'https://drive.google.com/uc?export=view&id=1E1heZIimpEfjVy1Dcnxmtm6bQd5OukHy'
-    const pictureNatalia = 'https://drive.google.com/uc?export=view&id=1RUPz3poZPW5XP4gbi9yrPblT55Up10te'
     /* -- component -- */
     return (
         <div className="curriculum-container-general">
@@ -15,7 +16,7 @@ export const Curriculum = () => {
                 <div className="curriculum-card">
                     <div className="curriculum-container-card-title">
                         <h3 className="curriculum-card-title">
-                            Claudia Belloti
+                            Claudia Bellotti
                         </h3>
                     </div>
                     <div className="curriculum-card-content">
@@ -61,7 +62,7 @@ export const Curriculum = () => {
                 <div className="curriculum-card">
                     <div className="curriculum-container-card-title">
                         <h3 className="curriculum-card-title">
-                            Natalia Belloti
+                            Natalia Bellotti
                         </h3>
                     </div>
                     <div className="curriculum-card-content">
